@@ -5,8 +5,8 @@ The Digital Companion
 
 ### 👩‍💻 Team Members
 - Varsha (Backend - Python)
-- Member 2 (Frontend - HTML/CSS/JS)
-- Member 3 (Database - MySQL)
+- Riya (Frontend - HTML/CSS/JS)
+- Rushikesh (Database - MySQL)
 
 ---
 
