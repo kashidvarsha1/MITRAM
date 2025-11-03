@@ -1,0 +1,70 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 5px solid #a569bd;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+}
+
+/* Logo and Title */
+.logo-icon {
+  width: 60px;
+  margin-bottom: 10px;
+  margin-left: -40px;
+}
+
+.title {
+  color: #4ac4ec;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #f6a623;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.btn {
+  background-color: #f6a623;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 70px;
+  margin: 15px;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #59b9d8;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #ffd369;
+  transform: translateY(-2px);
+}
+
+/* Side image (illustration of elders) */
+.side-image {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+  width: 150px;
+  opacity: 0.9;
+}
