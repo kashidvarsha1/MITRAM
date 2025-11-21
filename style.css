@@ -1,70 +1,241 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
 body {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  border: 5px solid #a569bd;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
 }
 
-/* Main container */
-.container {
-  text-align: center;
+/* Header Section */
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Logo and Title */
-.logo-icon {
-  width: 60px;
-  margin-bottom: 10px;
-  margin-left: -40px;
+.logo-section {
+    display: flex;
+    align-items: center;
 }
 
-.title {
-  color: #4ac4ec;
-  font-size: 40px;
-  font-weight: bold;
+.logo {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #53b2e8;
 }
 
 .subtitle {
-  color: #f6a623;
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 40px;
+    margin: -10px 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #f6a623;
 }
 
-/* Buttons */
-.btn {
-  background-color: #f6a623;
-  color: black;
-  font-size: 18px;
-  font-weight: 700;
-  border: none;
-  border-radius: 30px;
-  padding: 15px 70px;
-  margin: 15px;
-  cursor: pointer;
-  box-shadow: 0 5px 0 #59b9d8;
-  transition: all 0.2s ease;
+.info-icon {
+    width: 40px;
+    cursor: pointer;
 }
 
-.btn:hover {
-  background-color: #ffd369;
-  transform: translateY(-2px);
+/* Image Section */
+.image-area {
+    width: 95%;
+    text-align: center;
+    margin-top: -10px;
 }
 
-/* Side image (illustration of elders) */
-.side-image {
-  position: absolute;
-  right: 50px;
-  bottom: 30px;
-  width: 150px;
-  opacity: 0.9;
+.bg-image {
+    width: 90%;
+    border-radius: 10px;
 }
+
+/* Button Section */
+.button-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.welcome-btn {
+    background: #f6b142;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: 4px 6px 0px #4bc0f1;
+}
+
+.welcome-btn:hover {
+    background: #eaa332;
+}
+/* ===== LOGIN PAGE STYLING ===== */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e6f7ff;  /* light blue */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background: #ffffff;
+    width: 350px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+.login-container h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #5db3e6;
+}
+
+.login-container p {
+    font-size: 15px;
+    margin: 10px 0 20px;
+    color: #555;
+}
+
+.login-container input {
+    width: 92%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #5db3e6;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 92%;
+    height: 50px;
+    margin-top: 15px;
+    background: #ffbe4d;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px #1eb1d7;
+}
+
+.login-container button:hover {
+    background: #ffd070;
+}
+
+.back-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.back-link a {
+    text-decoration: none;
+    color: #1e88d7;
+    font-weight: bold;
+}
+/*personal.css*/
+body {
+    margin: 0;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.main-box {
+    text-align: center;     /* centers text inside button */
+    display: flex;          /* helps perfect centering */
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 40%;
+    text-align: center;
+}
+
+.grandma {
+    width: 300px;
+    padding: 10px;
+}
+
+.grandpa {
+    width: 300px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #50B8FF;
+    margin: 0;
+}
+
+.tagline {
+    color: orange;
+    letter-spacing: 2px;
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+.form-box {
+    margin-top: 30px;
+}
+
+input {
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#enterBtn {
+    width: 70%;
+    padding: 18px;
+    background: #FFB743;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 6px #3ED0FF;
+    margin-top: 15px;
+}
+
+#enterBtn:hover {
+    background: #FFD280;
+}
+

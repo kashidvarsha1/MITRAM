@@ -1,8 +1,31 @@
-// Simple button click functions
-document.getElementById("signupBtn").addEventListener("click", function() {
-  alert("Signup button clicked! (Redirect to signup page)");
-});
+function goNext() {
+    alert("Welcome to MITRAM");
+    window.location.href = "personal.html"; // your next page
+}
+<script src="signin.js"></script>
+function loginUser() {
+    let email = document.getElementById("email").value;
+    let pass = document.getElementById("password").value;
 
-document.getElementById("loginBtn").addEventListener("click", function() {
-  alert("Login button clicked! (Redirect to login page)");
-});
+    if (email === "" || pass === "") {
+        alert("Please fill all fields!");
+        return;
+    }
+
+    alert("Login Successful (Demo)");
+
+    // after login you can redirect
+    // window.location.href = "home.html";
+}
+
+function loginUser() {
+    let email = document.getElementById("email").value;
+    let pass = document.getElementById("password").value;
+
+    if (email === "" || pass === "") {
+        alert("Please fill all fields!");
+        return;
+    }
+
+    alert("Login Successful (Demo)");
+}
